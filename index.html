@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>fd</title>
+  <meta charset="utf-8">
+  <meta name="description" content="یک اپلیکیشن اندروید که هر روز یک پیام آموزنده به شما نمایش می دهد" />
+  <meta property="og:locale" content="fa_IR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="اپلیکشین پندار - گاهی یک جمله مسیر زندگی مان را تغییر می دهد" />
+  <meta property="og:description" content="یک اپلیکیشن اندروید که هر روز یک پیام آموزنده به شما نمایش می دهد" />
+  <meta property="og:url" content="http://noaein.ir/pendarapp" />
+  <meta property="og:site_name" content="اپلیکشین پندار - گاهی یک جمله مسیر زندگی مان را تغییر می دهد" />
+  <meta name="twitter:description" content="یک اپلیکیشن اندروید که هر روز یک پیام آموزنده به شما نمایش می دهد" />
+  <meta name="twitter:title" content="اپلیکشین پندار - گاهی یک جمله مسیر زندگی مان را تغییر می دهد" />
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="icon" type="image/png" href="images/favicon.png">-->
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container-fuild">
+    <!-- Pages Navigation -->
+    <div class="row">
+      <div class="pages-nav">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">صفحه نخست</a>
+            </li>
+            <li>
+              <a href="#">تماس با ما</a>
+            </li>
+            <li>
+              <a href="#"> کانال تلگرام</a>
+            </li>
+            <li>
+              <a href="#">تبلیغات</a>
+            </li>
+            <li>
+              <a href="#">راهنما</a>
+            </li>
+            <li>
+              <a href="#">عضویت</a>
+            </li>
+            <li>
+              <a href="#">کارت شارژ</a>
+            </li>
+          </ul>
+          <div class="current-date">
+            <span> امروز : </span> یکشنبه, 2 آبان , 1395
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <div class="row">
+      <header>
+        <div class="container">
+          <!-- Logo -->
+          <div class="logo">
+            <h1>دوستی ها</h1>
+            <a href="#"><img src="img/logo.png"></a>
+            <h2>ارزش يک هفته را، از ويراستار يک مجله هفتگي بپرس</h2>
+          </div>
+          <!-- Sub Header -->
+          <div class="sub-header">
+            <div class="social-links">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-telegram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- Header Search -->
+            <div class="header-search">
+              <form action="index.html" id="header-search-form">
+                <input type="text" name="keyword" id="keyword">
+                <button type="submit" value="submit" name="submit" id="submit-keyword"><i class="fa fa-search"></i> جستجو سریع </button>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--Main Nav-->
+    <div class="row">
+      <nav>
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">کتب الکترونیکی</a>
+            </li>
+            <li>
+              <a href="#">نرم افزار</a>
+              <ul>
+                <li>
+                  <a href="#">مالتی مدیا</a>
+                </li>
+                <li>
+                  <a href="#">آموزشی</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">مالتی مدیا</a>
+            </li>
+            <li>
+              <a href="#">آموزشی</a>
+            </li>
+            <li>
+              <a href="#">اخبار</a>
+            </li>
+            <li>
+              <a href="#">اخبار</a>
+              <ul>
+                <li>
+                  <a href="#">مالتی مدیا</a>
+                </li>
+                <li>
+                  <a href="#">آموزشی</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">بازی</a>
+            </li>
+            <li>
+              <a href="#">تفریحی و سرگرمی</a>
+            </li>
+          </ul>
+          <div class="danial-hamburger">
+            <a href="#" class="danial-hamburger-open-btn"><i class="fa fa-bars"></i></a>
+            <a href="#" class="danial-hamburger-close-btn"><i class="fa fa-times"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Full Width Banner-->
+    <div class="row">
+      <div class="container">
+        <div class="link-to-ad-page">
+          <a href="#">تبلیغات هزینه نیست ! سرمایه است ،  <span>کلیک کنید</span></a>
+        </div>
+        <div class="fuild-ad-banner">
+          <a href="#">
+            <img src="img/fuild_banner.png" alt="">
+            <span class="fuild-ad-banner-hover-text">
+                  کمپ تبلیغات
+                </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Now Playing Section-->
+    <div class="row">
+      <section class="now-playing">
+        <div class="container">
+          <div class="row section-title">
+            <div class="now-playing-section-title">
+              در حال پخش
+            </div>
+            <div class="now-playing-section-more-link">
+              <a href="#">برای ورود به بخش فیلم و سریال ، کلیک کنید</a>
+            </div>
+          </div>
+          <!--Now Playing Items-->
+          <div class="row">
+            <div class="now-palying-items">
+              <ul>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="img/rabinson_movie.png" alt="">
+                    <span class="now-palying-item-title">سریال انیمیشن رابینسون</span>
+                    <span class="hover-on-cover">
+                      <i class="fa fa-play"></i>
+                      <div>بریم تماشای فیلم</div>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <content>
+      <div class="row">
+        <div class="container">
+          <!--Sidebar Right-->
+          <div class="sidebar-right">
+            <div class="widget">
+              <div class="widget-title">
+                <i class="fa fa-star"></i> مطالب تصادفی
+              </div>
+              <div class="widget-content">
+                <ul>
+                  <li>
+                    <a href="">دانلود فیلم سینمایی “بادیگارد” با کیفیت عالی</a>
+                  </li>
+                  <li>
+                    <a href="">دانلود انیمیشن در جستجو دوری </a>
+                  </li>
+                  <li>
+                    <a href="">دانلود آهنگ علی عبدالمالکی به نام چند روز</a>
+                  </li>
+                  <li>
+                    <a href="">دانلود بازی The Wanderer CE Fianl</a>
+                  </li>
+                  <li>
+                    <a href="">دانلودویدئو جدید احمد سعیدی به نام چند وقته</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="widget widget-dark">
+              <div class="widget-title">
+                <i class="fa fa-star"></i> مطالب تصادفی
+              </div>
+              <div class="widget-content">
+                <ul>
+                  <li>
+                    <a href="">asdasdas</a>
+                  </li>
+                  <li>
+                    <a href="">asdasdas</a>
+                  </li>
+                  <li>
+                    <a href="">asdasdas</a>
+                  </li>
+                  <li>
+                    <a href="">asdasdas</a>
+                  </li>
+                  <li>
+                    <a href="">asdasdas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--Top Posts Widget-->
+            <div class="widget top-posts-widget">
+              <div class="widget-title">
+                <img src="img/index_21.png" alt="">
+              </div>
+              <div class="widget-content">
+                <ul class="top-posts-navigation">
+                  <li>
+                    <a href="#">هفته</a>
+                  </li>
+                  <li>
+                    <a href="#">ماه</a>
+                  </li>
+                  <li>
+                    <a href="#">سال</a>
+                  </li>
+                </ul>
+                <div class="top-posts-container">
+                  <ul id="week-top-posts">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="month-top-posts">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul id="year-top-posts">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-star"></i>
+                        <span>سرانجام نسخه نهایی بازی تایتان فال ۲رانجام نسخه نهایی بازی تایتان فال ۲ </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Main Content-->
+          <div class="main-content">
+            <!--Post-->
+            <div class="post">
+              <div class="post-title">
+                <a href="#">دانلود بازی Titanfall 2 برای PC</a>
+                <a href="#" class="post-category-icon"><i class="fa fa-gamepad"></i></a>
+                <div class="post-details">
+                  <i class="fa fa-bars"></i> <span>دسته بندی: بازی اکشن , بازی کامپیوتر</span>
+                  <i class="fa fa-bars"></i> <span>دسته بندی: بازی اکشن , بازی کامپیوتر</span>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>
+                  سرانجام نسخه نهایی بازی تایتان فال 2 (به انگلیسی: Titanfall 2) برای کاربران پلتفرم PCعرضه شد. قطعا و بدون شک مهم‌ترین تغییر
+                  در Titanfall 2 وجود بخش داستانی است. جایی که قرار است رابطه بین پایلوت‌ها و تایتان‌ها بنمایش گذاشته شود.
+                  اینکه شما بتوانید بهترین استفاده را از تایتان خود ببرید، نیازمند یک ترکیب احساسی است که در بخش داستانی
+                  تایتان‌فال 2 این ترکیب بنمایش گذاشته خواهد شد. هر تایتان و هر پایلوت نسبت به یکدیگر وظایفی دارند. دو دوست،
+                  دو همراه و دو مراقب قطعا بهترین واژگانی است که برای پایلوت‌ها و تایتان‌هایشان می‌توان بیان کرد.
+                </p>
+                <div class="post-thumb">
+                  <a href="#"> <img src="img/post_thumb.png" /></a>
+                </div>
+              </div>
+              <div class="post-read-more-btn">
+                <a href="#">ادامه مطلب و دانلود</a>
+              </div>
+              <div class="post-tag">
+                <i class="fa fa-tag"></i>
+                <span>تگ ها : </span>
+                <ul>
+                  <li><a href="#">دانلود نسخه فشرده بازی Titanfall 2</a></li>
+                </ul>
+              </div>
+              <div class="post-footer-detail">
+                <div class="post-auther">
+                  <i class="fa fa-user"></i>
+                  <a href="#">مسعود</a>
+                </div>
+                <div class="post-comments">
+                  <i class="fa fa-comment"></i>
+                  <span>14</span>
+                  <span>نظر</span>
+                </div>
+                <div class="post-published-date">
+                  <i class="fa fa-calendar"></i>
+                  <span>29 آبان, 1395</span>
+                </div>
+                <div class="post-social-share-buttons">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--Pagination PC-->
+            <div class="pagination">
+              <span>صفحات وب سایت </span>
+              <ul>
+                <li>
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+                <li>
+                  <a href="#">4</a>
+                </li>
+                <li>
+                  <a href="#">5</a>
+                </li>
+                <li>
+                  <a href="#">6</a>
+                </li>
+                <li>
+                  <a href="#">7</a>
+                </li>
+                <li>
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+                <li>
+                  <a href="#">4</a>
+                </li>
+                <li>
+                  <a href="#">5</a>
+                </li>
+                <li>
+                  <a href="#">6</a>
+                </li>
+                <li>
+                  <a href="#">7</a>
+                </li>
+                <li>
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+              </ul>
+            </div>
+
+            <!--Pagination Mobile-->
+            <div class="pagination-mobile">
+              <a href="#" class="older-posts-link">مطالب قدیمی تر</a>
+              <a href="#" class="newer-posts-link">مطالب تازه تر</a>
+            </div>
+
+
+          </div>
+          <!--Sidebar Left-->
+          <div class="sidebar-left">
+
+
+            <!--Social ID Widget-->
+            <div class="widget social-id-widget">
+              <div class="widget-content">
+                <div class="social-id-image">
+                  <img src="img/index_35.png" alt="">
+                </div>
+                <div class="social-id-text">@doostiha</div>
+              </div>
+            </div>
+
+            <!--Ad Widget-->
+            <div class="widget widget-dark sidebar-ad-banner">
+              <div class="widget-title">
+                <i class="fa fa-star"></i> تبلیغات
+              </div>
+              <div class="widget-content">
+                <a href="#"><img src="img/banner.png" /> </a>
+              </div>
+            </div>
+
+            <!--Special Category Widget-->
+            <div class="widget special-category-widget">
+              <a href="#">
+                <img src="img/index_15.png" alt="">
+                <span class="category-title">
+                  Category
+                </span>
+              </a>
+            </div>
+
+            <!--Essential Tools Widget-->
+            <div class="widget essential-tools-widget">
+              <div class="widget-title">
+                <i class="fa fa-star"></i> ابزارهای لازم
+              </div>
+              <div class="widget-content">
+                <ul>
+                  <li>
+                    <a href="">
+                    <img class="tool-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="tool-title">
+                        دانلود Telegram Desktop
+                      </div>  
+                      <div class="tool-version">
+                        نسخه v10.3.2223
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="tool-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="tool-title">
+                        دانلود Telegram Desktop
+                      </div>  
+                      <div class="tool-version">
+                        نسخه v10.3.2223
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="tool-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="tool-title">
+                        دانلود Telegram Desktop
+                      </div>  
+                      <div class="tool-version">
+                        نسخه v10.3.2223
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="tool-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="tool-title">
+                        دانلود Telegram Desktop
+                      </div>  
+                      <div class="tool-version">
+                        نسخه v10.3.2223
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="tool-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="tool-title">
+                        دانلود Telegram Desktop
+                      </div>  
+                      <div class="tool-version">
+                        نسخه v10.3.2223
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!--Text Ads Widget-->
+            <div class="widget text-ads-widget">
+              <ul>
+                <li>
+                  <a href="#">طراحی وب سایت</a>
+                </li>
+                <li>
+                  <a href="#">طراحی وب سایت</a>
+                </li>
+                <li>
+                  <a href="#">طراحی وب سایت</a>
+                </li>
+                <li>
+                  <a href="#">طراحی وب سایت</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <!--Last Comments Widget-->
+            <div class="widget last-comments-widget">
+              <div class="widget-title">
+                <i class="fa fa-comment"></i> آخرین نظرات
+              </div>
+              <div class="widget-content">
+                <ul>
+                  <li>
+                    <a href="">
+                    <img class="commenter-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="comment-content">
+                        <span class="commenter-username">ادمین</span> : 
+                        <span>
+                          سرانجام نسخه نهایی بازی تایتان فال ۲ (به انگلیسی: Titanfall ۲) برای کاربران پلتفرم PCعرضه شد. قطعا و بدون شک مهم‌ترین تغییر در Titanfall ۲ وجود بخش داستانی است. جایی که قرار است
+                        </span>
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="commenter-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="comment-content">
+                        <span class="commenter-username">ادمین</span> : 
+                        <span>
+                          سرانجام نسخه نهایی بازی تایتان فال ۲ (به انگلیسی: Titanfall ۲) برای کاربران پلتفرم PCعرضه شد. قطعا و بدون شک مهم‌ترین تغییر در Titanfall ۲ وجود بخش داستانی است. جایی که قرار است
+                        </span>
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="commenter-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="comment-content">
+                        <span class="commenter-username">ادمین</span> : 
+                        <span>
+                          سرانجام نسخه نهایی بازی تایتان فال ۲ (به انگلیسی: Titanfall ۲) برای کاربران پلتفرم PCعرضه شد. قطعا و بدون شک مهم‌ترین تغییر در Titanfall ۲ وجود بخش داستانی است. جایی که قرار است
+                        </span>
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    <img class="commenter-icon" src="img/index_35.png" alt="">
+                    <div>
+                      <div class="comment-content">
+                        <span class="commenter-username">ادمین</span> : 
+                        <span>
+                          سرانجام نسخه نهایی بازی تایتان فال ۲ (به انگلیسی: Titanfall ۲) برای کاربران پلتفرم PCعرضه شد. قطعا و بدون شک مهم‌ترین تغییر در Titanfall ۲ وجود بخش داستانی است. جایی که قرار است
+                        </span>
+                      </div>
+                    </div>  
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </content>
+    <!--Footer-->
+    <footer>
+      <!--Footer Nav-->
+      <div class="row">
+        <div class="footer-nav">
+          <div class="container">
+            <div class="row">
+              <ul>
+                <li>
+                  <a href="#">کتب الکترونیکی</a>
+                </li>
+                <li>
+                  <a href="#">نرم افزار</a>
+                </li>
+                <li>
+                  <a href="#">مالتی مدیا</a>
+                </li>
+                <li>
+                  <a href="#">آموزشی</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+                <li>
+                  <a href="#">اخبار</a>
+                </li>
+                <li>
+                  <a href="#">بازی</a>
+                </li>
+                <li>
+                  <a href="#">تفریحی و سرگرمی</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer Widgets-->
+      <div class="row">
+        <div class="footer-widgets">
+          <div class="container">
+            <!--Stats Widget-->
+            <div class="footer-widget-stats">
+              <a href="#">
+                <img src="img/logo.png" alt="">
+              </a>
+              <div class="stats-content-icon">
+                <i class="fa fa-signal"></i>
+              </div>
+              <div class="stats-content">
+                <p>
+                  آپدیت شده در : 29 آبان 1395
+                </p>
+                <p>
+                  بازدید امروز : 100987 نفر
+                </p>
+                <p>
+                  بازدید کل : 9876098624 نفر
+                </p>
+                <p>
+                  تعداد مطالب : 7986 عدد
+                </p>
+                <p>
+                  تعداد نظرات : 67898 نظر
+                </p>
+              </div>
+            </div>
+            <!--Super Tags Widget-->
+            <div class="footer-widget-super-tags">
+              <div class="title">
+                <i class="fa fa-tag"></i> برچسب ها
+              </div>
+              <ul>
+                <li>
+                  <a href="#">دانلود نرم افزار</a>
+                </li>
+                <li>
+                  <a href="#">دانلود نرم افزار</a>
+                </li>
+                <li>
+                  <a href="#">دانلود نرم افزار</a>
+                </li>
+                <li>
+                  <a href="#">دانلود نرم افزار</a>
+                </li>
+              </ul>
+            </div>
+            <!--Designers Widget-->
+            <div class="footer-widget-designers">
+              <div class="footer-widget-socials">
+                <div class="title">
+                  مارا دنبال کنید
+                </div>
+                <div class="row">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-telegram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-designers">
+                <div>
+                  تمامی حقوق برای سایت دوستی ها محفوظ است
+                </div>
+                <div>
+                  طراحی سایت : وبارتما
+                </div>
+                <div>
+                  بهینه سازی سایت: وبارتما
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer Copright-->
+      <div class="row">
+        <div class="footer-copyright">
+          <p>COPYRIGHT BY 2016 - 2017</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
